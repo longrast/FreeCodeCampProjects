@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+  margin: 0px;
+}
+
+body {
+  background-image: url(https://t3.ftcdn.net/jpg/02/00/12/40/360_F_200124079_6ayr4VU5AhLMfwPaDOxIk6Dgv0JWaCwX.jpg);
+  width: 80vw;
+  margin: 0 auto;
+  color: SaddleBrown;
+  letter-spacing: 0.1px;
+  font-family: "Space Mono";
+  opacity: 90%
+}
+
+header {
+  margin: 15px auto;
+  background-color: SandyBrown;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+fieldset {
+  border: none;
+  margin: 5px auto;
+  padding: 15px 30px;
+}
+
+main {
+  background-color: SandyBrown;
+  border-radius: 15px;
+  padding: 10px 0;
+}
+
+label {
+  font-size: 20px;
+  margin: 10px 0 4px 0;
+  display: block;
+}
+
+input {
+  font-size: 20px;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+}
+
+hr {
+  height: 8px;
+  background-color: white;
+  border: none;
+}
+
+input[type="radio"] {
+  width: 10%;
+}
+
+input[type="checkbox"] {
+  width: 4%;
+}
+
+textarea {
+  width: 100%;
+}
+
+#title {
+  font-size: 40px;
+}
+
+#description {
+  font-size: 20px;
+}
+
+#name-label {
+  display: block;
+}
+
+#email-label {
+  display: block;
+}
+
+#number-label {
+  display: block;
+}
+
+#dropdown {
+  display: block;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+}
+
+#submit {
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+  font-family: "Space Mono";
+}
+
+#submit:hover {
+  background-color: lightpink;
+  color: red;
+}
+#submit:active {
+  background-color: hotpink;
+}
+
+.optional {
+  display: inline;
+  font-size: 16px;
+  
+}
+
+.owl {
+  text-align: center;
+  font-size: 28px;
+}
