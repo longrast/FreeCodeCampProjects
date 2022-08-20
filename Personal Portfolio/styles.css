@@ -251,3 +251,52 @@ footer {
     margin: 20px 20px;
   }
 }
+@media (max-width:500px) {
+  #navbar {
+    padding: 0 0;
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-red);
+    box-shadow: 0 2px 2px black;
+  }
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-width: 100px;
+    color: white;
+    font-size: 1em;
+  }
+  .projects-flex {
+    justify-content: center;
+  }
+  .project-box {
+    width: 20%;
+    margin: 20px 20px;
+  }
+  .welcome-text h1{
+    text-align: center;
+  }
+  .contact-section-header h2 {
+    text-align: center;
+    font-size: 2.2em;
+  }
+  .project-box {
+    width: 80%;
+  }
+  .contact-links {
+    margin-top: 30px;
+    font-size: 1em;
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items:
+  }
+}
