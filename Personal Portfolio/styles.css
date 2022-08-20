@@ -234,6 +234,10 @@ footer {
   color: orange;
 }
 
+.footer p {
+  margin-right: 4px;
+}
+
 @media (min-width:760px) {
   .project-box {
     width: 30%;
