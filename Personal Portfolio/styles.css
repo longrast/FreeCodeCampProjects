@@ -256,9 +256,6 @@ footer {
   }
 }
 @media (max-width:500px) {
-  body {
-    width: 110vw;
-  }
   #navbar {
     padding: 0 0;
     width: 100vw;
@@ -305,5 +302,10 @@ footer {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items:
+  }
+}
+@media (orientation: landscape) {
+    body {
+    width: 110vw;
   }
 }
