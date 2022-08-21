@@ -257,7 +257,7 @@ footer {
 }
 @media (max-width:500px) {
   body {
-    width: 110%;
+    width: 110vw;
   }
   #navbar {
     padding: 0 0;
