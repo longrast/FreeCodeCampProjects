@@ -305,3 +305,7 @@ footer {
   }
 }
 
+@media (orientation: landscape) {
+  overflow-x: hidden;
+}
+
