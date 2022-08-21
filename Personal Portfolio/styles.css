@@ -304,17 +304,4 @@ footer {
     align-items:
   }
 }
-@media (orientation: landscape) {
-    html {
-    width: 110vw;
-  }
-    body {
-    width: 110vw;
-  }
-    header {
-    width: 110vw;
-  }
-    #navbar {
-    width: 110vw;
-  }
-}
+
