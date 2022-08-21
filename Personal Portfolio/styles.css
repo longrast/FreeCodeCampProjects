@@ -307,7 +307,7 @@ footer {
 
 @media (orientation: landscape) {
   overflow-x: hidden;
-  #navbar {
+  .nav-item {
     padding: 0 50px;
   }
 }
